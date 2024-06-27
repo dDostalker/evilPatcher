@@ -49,6 +49,7 @@ def main():
         patch32_handler(filename, sandboxFile, debugFlag).run()
     elif arch == 'amd64':
         patch64_handler(filename, sandboxFile, debugFlag).run()
+
     else:
         print(f'{arch} is not supported!!! Only i386 and amd64!!!')
 
